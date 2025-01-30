@@ -100,7 +100,35 @@ namespace WebApiCadastro.Services.UsuarioService
 
         public async Task<ServiceResponse<List<UsuarioModel>>> InativaUsuario(int id)
         {
-            throw new NotImplementedException();
+            ServiceResponse<List<UsuarioModel>> serviceResponse = new ServiceResponse<List<UsuarioModel>>();
+
+            try
+            {
+                UsuarioModel usuarioModel = _context.Usuario.FirstOrDefault(usuarioModel => usuarioModel.Id == id);
+
+                if (usuarioModel == null)
+                {
+                    serviceResponse.Dados = null;
+                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Sucesso = false;
+                }
+
+                usuarioModel.Ativo = false;
+                usuarioModel.DataCadastro = DateTime.Now.ToLocalTime();
+
+                _context.Usuario.Update(usuarioModel);
+                await _context.SaveChangesAsync();
+
+                serviceResponse.Dados = _context.Usuario.ToList();
+
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.Mensagem = ex.Message;
+                serviceResponse.Sucesso = false;
+            }
+
+            return serviceResponse;
         }
 
         public async Task<ServiceResponse<List<UsuarioModel>>> UpdateUsuario(UsuarioModel editadoUsuario)

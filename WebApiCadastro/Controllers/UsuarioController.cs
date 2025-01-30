@@ -35,5 +35,13 @@ namespace WebApiCadastro.Controllers
             return Ok(serviceResponse);
         }
 
+        [HttpPut]
+        public async Task<ActionResult<ServiceResponse<List<UsuarioModel>>>> UpdateUsuario(UsuarioModel editadoUsuario)
+        {
+            ServiceResponse<List<UsuarioModel>> serviceResponse = await _usuarioInterface.UpdateUsuario(editadoUsuario);
+
+            return Ok(serviceResponse);
+        }
+
     }
 }
