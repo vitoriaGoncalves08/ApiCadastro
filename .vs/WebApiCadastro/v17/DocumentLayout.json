@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\",
+  "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\services\\usuarioservice\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\services\\usuarioservice\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\enums\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\services\\usuarioservice\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\services\\usuarioservice\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\enums\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\enums\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro\\webapicadastro\\enums\\tipotrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\enums\\tipotrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\enums\\tipotrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,82 +50,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUsuarioInterface.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
               "RelativeToolTip": "WebApiCadastro\\Services\\UsuarioService\\IUsuarioInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T08:13:44.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
               "RelativeToolTip": "WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T08:13:17.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "WebApiCadastro\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T08:09:26.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebApiCadastro\\DataContext\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T07:22:56.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T07:22:56.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiCadastro\\appsettings.json",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\appsettings.json",
+              "RelativeToolTip": "WebApiCadastro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T12:08:47.55Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiCadastro\\appsettings.json",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\appsettings.json",
-              "RelativeToolTip": "WebApiCadastro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-29T12:08:47.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Program.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Program.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Program.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Program.cs",
               "RelativeToolTip": "WebApiCadastro\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T12:09:19.461Z",
               "EditorCaption": ""
@@ -134,24 +132,23 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Enums\\Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Enums\\Departamento.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Enums\\Departamento.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Enums\\Departamento.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Enums\\Departamento.cs",
               "RelativeToolTip": "WebApiCadastro\\Enums\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T12:19:43.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T12:19:43.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Models\\UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Models\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "WebApiCadastro\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T12:11:52.604Z",
               "EditorCaption": ""
@@ -160,27 +157,25 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Models\\ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Models\\ServiceResponse.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Models\\ServiceResponse.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Models\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Models\\ServiceResponse.cs",
               "RelativeToolTip": "WebApiCadastro\\Models\\ServiceResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T12:14:11.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T12:14:11.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "TipoTrabalho.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Enums\\TipoTrabalho.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Enums\\TipoTrabalho.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Enums\\TipoTrabalho.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro\\WebApiCadastro\\Enums\\TipoTrabalho.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Enums\\TipoTrabalho.cs",
               "RelativeToolTip": "WebApiCadastro\\Enums\\TipoTrabalho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T12:21:30.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T12:21:30.746Z"
             }
           ]
         }

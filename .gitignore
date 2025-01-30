@@ -1,0 +1,141 @@
+## Exemplo de .gitignore para projetos .NET com Visual Studio
+
+# --------------------------------------------------------------------------------------------------
+# GERAIS DO VISUAL STUDIO
+# --------------------------------------------------------------------------------------------------
+
+# Evita arquivos de configuração local do VS
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS 2015/2017/2019/2022 cache/options directory
+.vs/
+
+# Debug/Release e outras pastas de build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+.vs/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio auto generated files
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.includepath
+*.vcxproj.fnop
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+*.ipdb
+*.opendb
+*.tlog
+*.tmp
+*.tmp_proj
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Visual Studio Code Coverage
+*.coverage
+*.coveragexml
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# --------------------------------------------------------------------------------------------------
+# .NET CORE / .NET 6+ 
+# --------------------------------------------------------------------------------------------------
+
+# Pastas de artefatos do .NET (padrão .NET 5/6/7/8 ou superior)
+artifacts/
+publish/
+app.publish/
+
+# Logs de build
+*.log
+*.mlog
+
+# Configs geradas automaticamente
+*.nuget.props
+*.nuget.targets
+
+# DotNet temporários
+project.lock.json
+project.fragment.lock.json
+
+# --------------------------------------------------------------------------------------------------
+# NuGet
+# --------------------------------------------------------------------------------------------------
+
+*.nupkg
+*.snupkg
+
+# Pacotes
+**/[Pp]ackages/
+# Exceto build/, que pode ser necessário para MSBuild
+!**/[Pp]ackages/build/
+
+# --------------------------------------------------------------------------------------------------
+# TESTES / FERRAMENTAS DE COVERAGE
+# --------------------------------------------------------------------------------------------------
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Coverlet (ferramenta coverage)
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# --------------------------------------------------------------------------------------------------
+# OUTROS ARQUIVOS DE CACHE/TEMP
+# --------------------------------------------------------------------------------------------------
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Mono generated files
+mono_crash.*
+
+# Archivos de lock/sync do OneDrive (se necessário)
+*.lnk
+~$*
+
+# Outros temporários de lock
+*~ 
+*.lock
+
+# -----------------------------------------------------------------------------------------------
+# FIM
+# -----------------------------------------------------------------------------------------------
