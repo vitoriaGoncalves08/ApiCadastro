@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WebApiCadastro.DataContext;
+using WebApiCadastro.Services.UsuarioService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//dizendo para utilizarmos as nossas configurações do appsettings
+// Para quando fazer uma gestão de depenências do IUsuarioInterface utilizar os métodos da UsuarioService
+builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
+
+// Para utilizarmos as nossas configurações do appsettings
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
