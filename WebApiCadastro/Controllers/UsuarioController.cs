@@ -27,5 +27,13 @@ namespace WebApiCadastro.Controllers
             return Ok(await _usuarioInterface.GetUsuarios());
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ServiceResponse<UsuarioModel>>> GetUsuarioById(int id)
+        {
+            ServiceResponse<UsuarioModel> serviceResponse = await _usuarioInterface.GetUsuarioById(id);
+
+            return Ok(serviceResponse);
+        }
+
     }
 }

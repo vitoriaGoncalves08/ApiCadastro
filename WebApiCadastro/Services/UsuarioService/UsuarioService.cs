@@ -35,15 +35,12 @@ namespace WebApiCadastro.Services.UsuarioService
                 await _context.SaveChangesAsync();
 
                 serviceResponse.Dados = _context.Usuario.ToList();
-
-
             }
             catch (Exception ex)
             {
                 serviceResponse.Mensagem = ex.Message;
                 serviceResponse.Sucesso = false;
             }
-
             return serviceResponse;
         }
 
@@ -54,23 +51,20 @@ namespace WebApiCadastro.Services.UsuarioService
 
         public async Task<ServiceResponse<UsuarioModel>> GetUsuarioById(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<ServiceResponse<List<UsuarioModel>>> GetUsuarios()
-        {
-            ServiceResponse<List<UsuarioModel>> serviceResponse = new ServiceResponse<List<UsuarioModel>>();
+            ServiceResponse<UsuarioModel> serviceResponse = new ServiceResponse<UsuarioModel>();
 
             try
             {
+                UsuarioModel usuarioModel = _context.Usuario.FirstOrDefault(usuarioModel => usuarioModel.Id == id);
 
-                serviceResponse.Dados = _context.Usuario.ToList();
-
-                if (serviceResponse.Dados.Count == 0)
+                if (usuarioModel == null)
                 {
-                    serviceResponse.Mensagem = "Nenhum dado encontrado!";
+                    serviceResponse.Dados = null;
+                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Sucesso = false;
                 }
 
+                serviceResponse.Dados = usuarioModel;
 
             }
             catch (Exception ex)
@@ -81,7 +75,27 @@ namespace WebApiCadastro.Services.UsuarioService
             }
 
             return serviceResponse;
+        }
 
+        public async Task<ServiceResponse<List<UsuarioModel>>> GetUsuarios()
+        {
+            ServiceResponse<List<UsuarioModel>> serviceResponse = new ServiceResponse<List<UsuarioModel>>();
+
+            try
+            {
+                serviceResponse.Dados = _context.Usuario.ToList();
+
+                if (serviceResponse.Dados.Count == 0)
+                {
+                    serviceResponse.Mensagem = "Nenhum dado encontrado!";
+                }
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.Mensagem = ex.Message;
+                serviceResponse.Sucesso = false;
+            }
+            return serviceResponse;
         }
 
         public async Task<ServiceResponse<List<UsuarioModel>>> InativaUsuario(int id)
