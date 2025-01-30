@@ -21,5 +21,11 @@ namespace WebApiCadastro.Controllers
             return Ok(await _usuarioInterface.CreateUsuario(novoUsuario));
         }
 
+        [HttpGet]
+        public async Task<ActionResult<ServiceResponse<List<UsuarioModel>>>> GetUsuarios()
+        {
+            return Ok(await _usuarioInterface.GetUsuarios());
+        }
+
     }
 }

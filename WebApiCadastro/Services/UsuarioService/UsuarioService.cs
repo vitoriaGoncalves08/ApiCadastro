@@ -59,7 +59,29 @@ namespace WebApiCadastro.Services.UsuarioService
 
         public async Task<ServiceResponse<List<UsuarioModel>>> GetUsuarios()
         {
-            throw new NotImplementedException();
+            ServiceResponse<List<UsuarioModel>> serviceResponse = new ServiceResponse<List<UsuarioModel>>();
+
+            try
+            {
+
+                serviceResponse.Dados = _context.Usuario.ToList();
+
+                if (serviceResponse.Dados.Count == 0)
+                {
+                    serviceResponse.Mensagem = "Nenhum dado encontrado!";
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+
+                serviceResponse.Mensagem = ex.Message;
+                serviceResponse.Sucesso = false;
+            }
+
+            return serviceResponse;
+
         }
 
         public async Task<ServiceResponse<List<UsuarioModel>>> InativaUsuario(int id)
