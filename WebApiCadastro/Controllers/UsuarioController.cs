@@ -52,5 +52,12 @@ namespace WebApiCadastro.Controllers
             return Ok(serviceResponse);
         }
 
+        [HttpDelete]
+        public async Task<ActionResult<ServiceResponse<List<UsuarioModel>>>> DeleteUsuario(int id)
+        {
+            ServiceResponse<List<UsuarioModel>> serviceResponse = await _usuarioInterface.DeleteUsuario(id);
+
+            return Ok(serviceResponse);
+        }
     }
 }
