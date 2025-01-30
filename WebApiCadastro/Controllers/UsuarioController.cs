@@ -35,6 +35,15 @@ namespace WebApiCadastro.Controllers
             return Ok(serviceResponse);
         }
 
+        [HttpPut("inativaUsuario")]
+        public async Task<ActionResult<ServiceResponse<List<UsuarioModel>>>> InativaUsuario(int id)
+        {
+            ServiceResponse<List<UsuarioModel>> serviceResponse = await _usuarioInterface.InativaUsuario(id);
+
+            return Ok(serviceResponse);
+
+        }
+
         [HttpPut]
         public async Task<ActionResult<ServiceResponse<List<UsuarioModel>>>> UpdateUsuario(UsuarioModel editadoUsuario)
         {
