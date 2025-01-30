@@ -25,7 +25,16 @@ namespace WebApiCadastro.Services.UsuarioService
                     serviceResponse.Dados = null;
                     serviceResponse.Mensagem = "Dados de usuário vazios!";
                     serviceResponse.Sucesso = false;
+                    return serviceResponse;
+                }
 
+                var usuarioJaExiste = await _context.Usuario
+                    .AnyAsync(u => u.Email.ToLower() == novoUsuario.Email.ToLower());
+
+                if (usuarioJaExiste)
+                {
+                    serviceResponse.Sucesso = false;
+                    serviceResponse.Mensagem = "Já existe um usuário com este e-mail cadastrado!";
                     return serviceResponse;
                 }
 
