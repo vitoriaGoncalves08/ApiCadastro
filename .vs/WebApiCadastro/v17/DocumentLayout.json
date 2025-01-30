@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|solutionrelative:webapicadastro\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5246F31B-1B84-49E8-941C-7DB762F8C41B}|WebApiCadastro\\WebApiCadastro.csproj|c:\\users\\vitor\\onedrive\\documentos\\github\\webapicadastro - copia\\apicadastro\\webapicadastro\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -67,20 +67,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
               "RelativeToolTip": "WebApiCadastro\\Services\\UsuarioService\\UsuarioService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T08:13:17.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\Documentos\\GitHub\\WebApiCadastro - Copia\\ApiCadastro\\WebApiCadastro\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "WebApiCadastro\\Controllers\\UsuarioController.cs",

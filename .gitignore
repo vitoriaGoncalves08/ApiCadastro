@@ -14,6 +14,9 @@
 # VS 2015/2017/2019/2022 cache/options directory
 .vs/
 
+[Bb]in/
+[Oo]bj/
+
 # Debug/Release e outras pastas de build
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -31,9 +34,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-.vs/
-[Bb]in/
-[Oo]bj/
 
 # Visual Studio auto generated files
 *.vcxproj.user
