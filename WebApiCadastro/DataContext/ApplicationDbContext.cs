@@ -10,5 +10,18 @@ namespace WebApiCadastro.DataContext
         }
 
         public DbSet<UsuarioModel> Usuario { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UsuarioModel>()
+                .Property(u => u.Departamento)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<UsuarioModel>()
+                .Property(u => u.TipoTrabalho)
+                .HasConversion<string>();
+        }
     }
 }
