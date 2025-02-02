@@ -14,12 +14,13 @@ namespace WebApiCadastro.Models
         [MinLength(2, ErrorMessage = "O nome deve conter pelo menos 2 caracteres")]
         public string Nome { get; set; }
 
-        [Required(ErrorMessage = "Informe seu Departamento")]
+        [EnumDataType(typeof(Departamento), ErrorMessage = "Valor de departamento inválido.")]
         public Departamento Departamento { get; set; }
 
+        [EnumDataType(typeof(TipoTrabalho), ErrorMessage = "Valor de tipo de trabalho inválido.")]
         public TipoTrabalho TipoTrabalho { get; set; }
 
-        public bool Ativo { get; set; }
+        public bool Ativo { get; set; } = true;
 
         public DateTime DataCadastro { get; set; } = DateTime.Now.ToLocalTime();
 
